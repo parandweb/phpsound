@@ -90,12 +90,12 @@ $LNG['password_reset'] = 'Ți-ai resetat parola cu succes. Te poți autentifica 
 
 // MAIL CONTENT //
 $LNG['welcome_mail'] = 'Bine ai venit la %s';
-$LNG['email_footer_unsub'] = '<br /><br /><span style="color: #aaa;">Acest mesaj a fost trimis automat, dacă nu doriți să mai primiți astfel de mesaje de la <strong>%s</strong> în viitor, vă rugam să vă <a href="%s">Dezabonați</a>.</span>';
-$LNG['email_footer_gen'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Toate drepturile rezervate.';
-$LNG['email_hello'] = 'Bună ziua <strong>%s</strong>,<br /><br />';
-$LNG['user_created'] = 'Mulțumim că te-ai înregistrat pe <strong>%s</strong><br /><br />Nume utilizator: <strong>%s</strong><br />Parola ta: <strong>%s</strong><br /><br />Te poți autentifica la: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['email_footer_unsub'] = '<br><br><span style="color: #aaa;">Acest mesaj a fost trimis automat, dacă nu doriți să mai primiți astfel de mesaje de la <strong>%s</strong> în viitor, vă rugam să vă <a href="%s">Dezabonați</a>.</span>';
+$LNG['email_footer_gen'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. Toate drepturile rezervate.';
+$LNG['email_hello'] = 'Bună ziua <strong>%s</strong>,<br><br>';
+$LNG['user_created'] = 'Mulțumim că te-ai înregistrat pe <strong>%s</strong><br><br>Nume utilizator: <strong>%s</strong><br><br>Te poți autentifica la: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['recover_mail'] = 'Recuperare Parolă';
-$LNG['recover_content'] = 'O cerere de recuperare a parolei a fost cerută, dacă nu tu ai făcut această cerere, te rugam să ignori acest email. <br /><br />Nume utilizator: <strong>%s</strong><br />Cheie de resetare: <strong>%s</strong><br /><br />Îți poți reseta parola accesând următorul link: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['recover_content'] = 'O cerere de recuperare a parolei a fost cerută, dacă nu tu ai făcut această cerere, te rugam să ignori acest email. <br><br>Nume utilizator: <strong>%s</strong><br>Cheie de resetare: <strong>%s</strong><br><br>Îți poți reseta parola accesând următorul link: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['ttl_comment_email'] = '%s ți-a comentat o melodie';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> ți-a comentat <strong><a href="%s">melodia.</a></strong>'.$LNG['email_footer_unsub'];
 $LNG['ttl_like_email'] = '%s ți-a apreciat melodia';

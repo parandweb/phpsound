@@ -90,12 +90,12 @@ $LNG['password_reset'] = 'You have successfully reset your password. You can now
 
 // MAIL CONTENT //
 $LNG['welcome_mail'] = 'Welcome to %s';
-$LNG['email_footer_unsub'] = '<br /><br /><span style="color: #aaa;">This email was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
-$LNG['email_footer_gen'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
-$LNG['email_hello'] = 'Hello <strong>%s</strong>,<br /><br />';
-$LNG['user_created'] = 'Thank you for joining <strong>%s</strong><br /><br />Your username: <strong>%s</strong><br />Your Password: <strong>%s</strong><br /><br />You can log-in at: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['email_footer_unsub'] = '<br><br><span style="color: #aaa;">This email was sent automatically, if you don\'t want to receive these type of emails from <strong>%s</strong> in the future, please <a href="%s">Unsubscribe</a>.</span>';
+$LNG['email_footer_gen'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
+$LNG['email_hello'] = 'Hello <strong>%s</strong>,<br><br>';
+$LNG['user_created'] = 'Thank you for joining <strong>%s</strong><br><br>Your username: <strong>%s</strong><br><br>You can log-in at: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['recover_mail'] = 'Password Recovery';
-$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br /><br />Your Username: <strong>%s</strong><br />Your Reset Key: <strong>%s</strong><br /><br />You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['recover_content'] = 'A password recover was requested, if you didn\'t make this action please ignore this email. <br><br>Your Username: <strong>%s</strong><br>Your Reset Key: <strong>%s</strong><br><br>You can reset your password by accessing the following link: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['ttl_comment_email'] = '%s commented on your track';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> has commented on your <strong><a href="%s">track.</a></strong>'.$LNG['email_footer_unsub'];
 $LNG['ttl_like_email'] = '%s liked your track';

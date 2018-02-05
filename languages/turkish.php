@@ -90,12 +90,12 @@ $LNG['password_reset'] = 'Şifrenizi başarılı şekilde sıfırladınız. Art�
 
 // MAIL CONTENT //
 $LNG['welcome_mail'] = 'Hoşgeldiniz %s ';
-$LNG['email_footer_unsub'] = '<br /><br /><span style="color: #aaa;">Bu email otomatik olarak gönderilmiştir, gelecekte bu gibi emailleri <strong>%s</strong> sitesinden  almak istemiyorsanız, lütfen <a href="%s">mail listesinden ayrılın</a>.</span>';
-$LNG['email_footer_gen'] = '<br /><br /><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
-$LNG['email_hello'] = 'Merhaba <strong>%s</strong>,<br /><br />';
-$LNG['user_created'] = 'Katılımınız için teşekkür ederiz <strong>%s</strong><br /><br />Kullanıcı adınız: <strong>%s</strong><br />Şifreniz: <strong>%s</strong><br /><br />Buradan giriş yapabilirsiniz : <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['email_footer_unsub'] = '<br><br><span style="color: #aaa;">Bu email otomatik olarak gönderilmiştir, gelecekte bu gibi emailleri <strong>%s</strong> sitesinden  almak istemiyorsanız, lütfen <a href="%s">mail listesinden ayrılın</a>.</span>';
+$LNG['email_footer_gen'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
+$LNG['email_hello'] = 'Merhaba <strong>%s</strong>,<br><br>';
+$LNG['user_created'] = 'Katılımınız için teşekkür ederiz <strong>%s</strong><br><br>Kullanıcı adınız: <strong>%s</strong><br><br>Buradan giriş yapabilirsiniz : <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['recover_mail'] = 'Şifre Kurtarma';
-$LNG['recover_content'] = 'Bir şifre kurtarma talebi oluşturuldu, böyle bir talebiniz olmadı ise bu emaili gözardı edebilirsiniz. <br /><br />Kullanıcı adınız: <strong>%s</strong><br />Sıfırlama anahtarınız: <strong>%s</strong><br /><br />Sıfırlama sayfasına ulaşmak için linke tıklayınız: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
+$LNG['recover_content'] = 'Bir şifre kurtarma talebi oluşturuldu, böyle bir talebiniz olmadı ise bu emaili gözardı edebilirsiniz. <br><br>Kullanıcı adınız: <strong>%s</strong><br>Sıfırlama anahtarınız: <strong>%s</strong><br><br>Sıfırlama sayfasına ulaşmak için linke tıklayınız: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['ttl_comment_email'] = '%s kaydınıza yorum yaptı';
 $LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> , <strong><a href="%s">kaydınıza yorum yaptı.</a></strong>'.$LNG['email_footer_unsub'];
 $LNG['ttl_like_email'] = '%s kaydınızı beğendi';
