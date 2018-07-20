@@ -47,7 +47,7 @@ $LNG['audience_desc'] = 'Conectează-te cu comunitatea ta și crește-ți audien
 $LNG['statistics_desc'] = 'Cunoaște-ți audiența melodiilor cu statistici avansate';
 $LNG['explore_desc'] = 'Explorează și transmite muzică, conectează-te cu artiști noi';
 $LNG['share_desc'] = 'Împărtășește-ți muzica favorită cu prietenii pe rețelele de socializare';
-$LNG['organize_desc'] = 'Creează Playlist-uri și organizează-ți muzica în felul în care îți place';
+$LNG['organize_desc'] = 'Creează Playlist-uri și organizează-ți muzica cum îți place';
 $LNG['forgot_password'] = 'Ai uitat parola?';
 $LNG['all_rights_reserved'] = 'Toate drepturile rezervate';
 
