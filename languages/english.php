@@ -12,12 +12,14 @@ $LNG['lang_direction'] = 'ltr';
 
 $LNG['user_success'] = 'User succesfully created';
 $LNG['user_exists'] = 'This username already exists';
-$LNG['email_exists'] = 'This e-mail is already in use';
+$LNG['email_exists'] = 'This email is already in use';
 $LNG['all_fields'] = 'All fields are required';
 $LNG['user_alnum'] = 'The username must consists only from letters and numbers';
 $LNG['user_too_short'] = 'The username must be between 3 and 32 characters';
 $LNG['user_limit'] = 'Too many accounts created from this IP';
-$LNG['invalid_email'] = 'Invalid e-mail';
+$LNG['invalid_email'] = 'Invalid email';
+$LNG['activate_email'] = 'An activation link has been sent to your email';
+$LNG['account_activated'] = 'Your account has been activated';
 $LNG['invalid_user_pw'] = 'Invalid username or password';
 $LNG['invalid_captcha'] = 'Invalid captcha';
 $LNG['log_out'] = 'Log Out';
@@ -43,7 +45,7 @@ $LNG['latest'] = 'Latest';
 $LNG['upload_desc'] = 'Upload your sounds, music, podcasts to the world';
 $LNG['audience_desc'] = 'Connect with our community and increase your audience';
 $LNG['statistics_desc'] = 'Get to know your audience with advanced statistics';
-$LNG['explore_desc'] = 'Explore new music, discover new people and engage with artists';
+$LNG['explore_desc'] = 'Explore and stream music, connect with new artists';
 $LNG['share_desc'] = 'Share your favorite music with your friends on social networks';
 $LNG['organize_desc'] = 'Create playlists and organize your music the way you like';
 $LNG['forgot_password'] = 'Forgot your password?';
@@ -107,6 +109,8 @@ $LNG['copyright_mail_0'] = $LNG['email_hello'].'Your track <a href="%s">%s</a> h
 $LNG['copyright_mail_1'] = $LNG['email_hello'].'The infringing track <a href="%s">%s</a> has been suspended. Thank you. Case ID: %s'.$LNG['email_footer_gen'];
 $LNG['ttl_suspended_account_mail'] = 'Your account has been suspended';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Your account has been suspended. If you think this was an error, please contact us.'.$LNG['email_footer_gen'];
+$LNG['ttl_confirm_email'] = 'Activate your account';
+$LNG['confirm_email'] = $LNG['email_hello'].'Thank you for joining <strong>%s</strong>. Finish your registration by <a href="%s" target="_blank">clicking here</a>.'.$LNG['email_copy'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'General';
@@ -257,7 +261,8 @@ $LNG['12_upload_err'] = 'The name of a tag should be less than %s characters';
 $LNG['track_updated'] = 'Track has been successfully updated';
 $LNG['view_track'] = 'View Track';
 $LNG['congratulations'] = 'Congratulations';
-$LNG['track_uploaded'] = 'Your track <strong><a href="%s" rel="loadpage">%s</a></strong> has been successfully uploaded';
+$LNG['track_uploaded'] = 'Your track <strong><a href="%s" rel="loadpage">%s</a></strong> has been uploaded';
+$LNG['playlist_created'] = 'Your playst <strong><a href="%s" rel="loadpage">%s</a></strong> has been created';
 $LNG['or'] = 'or';
 
 $LNG['license'] = 'License';
@@ -317,7 +322,7 @@ $LNG['ttl_last_name'] = 'Last Name';
 $LNG['sub_last_name'] = 'Enter your last name';
 
 $LNG['ttl_email'] = 'Email';
-$LNG['sub_email'] = 'E-mail will not be displayed';
+$LNG['sub_email'] = 'Email will not be displayed';
 
 $LNG['ttl_country'] = 'Country';
 $LNG['sub_country'] = 'Country you live in';
@@ -398,13 +403,13 @@ $LNG['ttl_notificationf'] = 'Friends Notifications';
 $LNG['sub_notificationf'] = 'Display alert and notifications for <strong>Friends Additions</strong>';
 
 $LNG['ttl_email_comment'] = 'Emails on Comments';
-$LNG['sub_email_comment'] = 'Receive e-mails when someone comments on your tracks';
+$LNG['sub_email_comment'] = 'Receive emails when someone comments on your tracks';
 
 $LNG['ttl_email_like'] = 'Emails on Likes';
-$LNG['sub_email_like'] = 'Receive e-mails when someone likes your tracks';
+$LNG['sub_email_like'] = 'Receive emails when someone likes your tracks';
 
 $LNG['ttl_email_new_friend'] = 'Emails on New Friends';
-$LNG['sub_email_new_friend'] = 'Receive e-mails when someone adds you as friend';
+$LNG['sub_email_new_friend'] = 'Receive emails when someone adds you as friend';
 
 $LNG['user_ttl_sidebar'] = 'Settings';
 
@@ -431,6 +436,7 @@ $LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Manage Repor
 $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Manage Ads';
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Manage Categories';
 $LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Info Pages';
+$LNG['admin_menu_newsletter']			= $LNG['admin_ttl_newsletter'] 		= 'Newsletter';
 
 $LNG['admin_ttl_title'] = 'Title';
 $LNG['admin_sub_title'] = 'The site\'s title';
@@ -458,6 +464,9 @@ $LNG['admin_sub_chat_perpage'] = 'The number of chat conversations per page';
 
 $LNG['admin_ttl_permalinks'] = 'Permalinks';
 $LNG['admin_sub_permalinks'] = 'Enable permalinks URL structure (example.com/profile/username)';
+
+$LNG['admin_ttl_email_activation'] = 'Email Activation';
+$LNG['admin_sub_email_activation'] = 'Require the account to be activated via email';
 
 $LNG['admin_ttl_volume'] = 'Volume';
 $LNG['admin_sub_volume'] = 'Set the default volume';
@@ -540,6 +549,9 @@ $LNG['smtp_sub_host'] = 'The SMTP Host';
 $LNG['smtp_port'] = 'SMTP Port';
 $LNG['smtp_sub_port'] = 'The SMTP Port';
 
+$LNG['smtp_secure'] = 'SMTP Secure';
+$LNG['smtp_sub_secure'] = 'Enable SMTP Secure';
+
 $LNG['smtp_auth'] = 'SMTP Authentication';
 $LNG['smtp_sub_auth'] = 'Enable SMTP Authentication';
 
@@ -613,13 +625,13 @@ $LNG['admin_ttl_notificationf'] = 'Friends Notifications';
 $LNG['admin_sub_notificationf'] = 'Display alert and notifications for <strong>Friends Additions</strong> (can be changed from user\'s settings)';
 
 $LNG['admin_ttl_email_comment'] = 'Email on Comment';
-$LNG['admin_sub_email_comment'] = 'Enable sending e-mails when someone comments to a track';
+$LNG['admin_sub_email_comment'] = 'Enable sending emails when someone comments to a track';
 
 $LNG['admin_ttl_email_like'] = 'Email on Like';
-$LNG['admin_sub_email_like'] = 'Enable sending e-mails when someone likes a track';
+$LNG['admin_sub_email_like'] = 'Enable sending emails when someone likes a track';
 
 $LNG['admin_ttl_email_new_friend'] = 'Email on New Friend';
-$LNG['admin_sub_email_new_friend'] = 'Enable sending e-mails when someone adds a friend';
+$LNG['admin_sub_email_new_friend'] = 'Enable sending emails when someone adds a friend';
 
 $LNG['admin_ttl_wholiked'] = 'Who Liked';
 $LNG['admin_sub_wholiked'] = 'Display avatars of the users that liked a track';
@@ -646,6 +658,8 @@ $LNG['page_url'] = 'Page URL';
 $LNG['public_page'] = 'Public Page';
 $LNG['page_content'] = 'Page Content';
 $LNG['create_page'] = 'Create Page';
+$LNG['email_title'] = 'Email Title';
+$LNG['email_content'] = 'Email Content';
 
 $LNG['sub_page_title'] = 'The page title (supports translatable strings)';
 $LNG['sub_page_url'] = 'The page URL (no special characters)';
@@ -653,6 +667,8 @@ $LNG['sub_public_page'] = 'Display the page in footer and sidebar';
 $LNG['sub_page_content'] = 'The page content (supports translatable strings)';
 $LNG['url_exists'] = 'This page URL already exists';
 $LNG['page_deleted'] = 'The page <strong>%s</strong> has been deleted';
+$LNG['newsletter_deleted'] = 'The newsletter <strong>%s</strong> has been deleted';
+$LNG['newsletter_sent'] = 'Newsletter sent';
 
 $LNG['per_page'] = '/ page';
 $LNG['per_ip'] = '/ IP';
@@ -827,6 +843,9 @@ $LNG['delete_account'] = 'Deleting an account will delete all informations from 
 $LNG['suspend_account'] = 'Suspending an account will restrict the access to the account and hide its content. It can be fully restored.';
 $LNG['restore_account'] = 'Restoring account will restore access to the account and its content.';
 $LNG['account_suspended'] = 'This account is currently suspended.';
+$LNG['account_not_activated'] = 'This account is not activated. <a href="%s">Click here</a> to resend the activation email.';
+$LNG['re_activate_already'] = 'An activation email has already been sent today';
+$LNG['re_activate_sent'] = 'An activation email has been sent';
 $LNG['view'] = 'View';
 $LNG['uploading'] = 'Uploading';
 $LNG['processing'] = 'Processing...';

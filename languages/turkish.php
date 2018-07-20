@@ -12,12 +12,14 @@ $LNG['lang_direction'] = 'ltr';
 
 $LNG['user_success'] = 'Kullanıcı başarılı şekilde oluşturuldu';
 $LNG['user_exists'] = 'Bu kullanıcı adı zaten mevcut';
-$LNG['email_exists'] = 'Bu e-mail zaten kullanımda';
+$LNG['email_exists'] = 'Bu email zaten kullanımda';
 $LNG['all_fields'] = 'Tüm alanlar zorunludur';
 $LNG['user_alnum'] = 'Kullanıcı adı sadece rakam ve harflerden oluşmalıdır';
 $LNG['user_too_short'] = 'Kullanıcı adı 3 ila 32 karakter arasında olabilir';
 $LNG['user_limit'] = 'Bu IP üzerinden çok fazla hesap oluşturuldu';
-$LNG['invalid_email'] = 'Geçersiz e-mail';
+$LNG['invalid_email'] = 'Geçersiz email';
+$LNG['activate_email'] = 'Bir aktivasyon linki email hesabınıza yollandı';
+$LNG['account_activated'] = 'Hesabınız aktif edilmiştir'
 $LNG['invalid_user_pw'] = 'Geçersiz kullanıcı adı yada şifre';
 $LNG['invalid_captcha'] = 'Geçersiz captcha';
 $LNG['log_out'] = 'Çıkış';
@@ -43,7 +45,7 @@ $LNG['latest'] = 'En Son';
 $LNG['upload_desc'] = 'Müziğini, sesini, podcastini  yükle bütün dünyaya gönder';
 $LNG['audience_desc'] = 'Topluluğumuza katıl izleyici sayını arttır';
 $LNG['statistics_desc'] = 'İzleyicilerin hakkında ileri düzey istatistiklere ulaş';
-$LNG['explore_desc'] = 'Yeni müzikler keşfet, yeni insanlar ile tanış, sanatçılar ile iletişim kur';
+$LNG['explore_desc'] = 'Müziği keşfedin ve yayınlayın, yeni sanatçılarla bağlantı kurun';
 $LNG['share_desc'] = 'Favori parçalarını sosyal ağlarda arkadaşların ile paylaş';
 $LNG['organize_desc'] = 'Çalma listeleri oluştur ve müzilerini istediğin gibi düzenle';
 $LNG['forgot_password'] = 'Şifrenizi mi unuttunuz?';
@@ -78,7 +80,7 @@ $LNG['username_not_found'] = 'Seçtiğiniz kullanıcı adını bulamıyoruz.';
 $LNG['userkey_not_found'] = 'Kullanıcı adı ya da sıfırlama anahtarı yanlış, lütfen doğru bilgileri girmiş olduğunuzdan emin olun.';
 $LNG['email_reset'] = 'Şifrenizin sıfırlanması hakkında bilgileri içeren bir mail tarafınıza gönderildi. Bu mail size 24 saat içinde ulaşacaktır,bu sürede gelen kutunuzda birşey yok ise Spam kısmını kontrol ediniz.';
 $LNG['user_deleted'] = 'Kullanıcı silindi';
-$LNG['user_has_been_deleted'] = ' <strong>%s</strong> kullanıcısı silinmiştir.';
+$LNG['user_has_been_deleted'] = '<strong>%s</strong> kullanıcısı silinmiştir.';
 $LNG['user_not_deleted'] = 'Seçtiğiniz kullanıcı (ID: %s) silinemiyor.';
 $LNG['user_not_exist'] = 'Seçtiğiniz kullanıcı mevcut değil.';
 $LNG['payment_not_exist'] = 'Seçtiğiniz ödeme kimliği mevcut değil.';
@@ -107,6 +109,8 @@ $LNG['copyright_mail_0'] = $LNG['email_hello'].'Kaydınız <a href="%s">%s</a> t
 $LNG['copyright_mail_1'] = $LNG['email_hello'].'Hak ihlali yapılmış kayıt <a href="%s">%s</a> askıya alınmıştır. Teşekkürler. VAKA ID: %s'.$LNG['email_footer_gen'];
 $LNG['ttl_suspended_account_mail'] = 'Hesabınız askıya alınmıştır';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Hesabınız askıya alınmıştır. Eğer bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçiniz.'.$LNG['email_footer_gen'];
+$LNG['ttl_confirm_email'] = 'Hesabınızı aktif ediniz';
+$LNG['confirm_email'] = $LNG['email_hello'].'<strong>%s</strong> katılımınız için teşekkür ederiz. Kayıt işleminizi <a href="%s" target="_blank">bu linke tıklayarak tamamlayınız</a>.'.$LNG['email_copy'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'Genel';
@@ -246,7 +250,7 @@ $LNG['1_upload_err'] = 'Parça seçilmedi';
 $LNG['2_upload_err'] = '<strong>%s</strong> parçasının dosya boyutu çok büyük. İzin verilen en yüksek dosya boyutu %s';
 $LNG['3_upload_err'] = '<strong>%s</strong> parçası geçerli dosya formatında değil. Sadece %s audio dosya formatları geçerlidir';
 $LNG['4_upload_err'] = 'Seçilen kapak görseli çok büyük. İzin verilen en yüksek dosya boyutu %s';
-$LNG['5_upload_err'] = 'Seçilen kapak görseli geçerli dosya formatında değil.  %s formatında dosya yükleyin';
+$LNG['5_upload_err'] = 'Seçilen kapak görseli geçerli dosya formatında değil. %s formatında dosya yükleyin';
 $LNG['6_upload_err'] = 'Açıklama %s karakterden daha az sayıda olmalıdır';
 $LNG['7_upload_err'] = 'Satın alma linki geçerli bir URL adresi içermiyor';
 $LNG['8_upload_err'] = ' %s tags a kadar ekleme yapabilirsiniz';
@@ -257,7 +261,8 @@ $LNG['12_upload_err'] = 'Etiket içeriği %s karakterden az olmalı';
 $LNG['track_updated'] = 'Parça başarılı şekilde güncellendi';
 $LNG['view_track'] = 'Parça Görüntüle';
 $LNG['congratulations'] = 'Tebrikler';
-$LNG['track_uploaded'] = 'Parçanız <strong><a href="%s" rel="loadpage">%s</a></strong> başarı ile yüklendi';
+$LNG['track_uploaded'] = 'Parçanız <strong><a href="%s" rel="loadpage">%s</a></strong> yüklendi';
+$LNG['playlist_created'] = 'Oynatma listeniz <strong><a href="%s" rel="loadpage">%s</a></strong> oluşturuldu';
 $LNG['or'] = 'ya da';
 
 $LNG['license'] = 'Lisans';
@@ -317,7 +322,7 @@ $LNG['ttl_last_name'] = 'Soyadınız';
 $LNG['sub_last_name'] = 'Soyadınızı giriniz';
 
 $LNG['ttl_email'] = 'Email';
-$LNG['sub_email'] = 'E-mail adresiniz görüntülenmeyecek';
+$LNG['sub_email'] = 'Email adresiniz görüntülenmeyecek';
 
 $LNG['ttl_country'] = 'Ülke';
 $LNG['sub_country'] = 'Yaşadığınız ülke';
@@ -386,7 +391,7 @@ $LNG['ttl_upload_cover'] = 'Kapak yükle';
 $LNG['ttl_delete_photo'] = 'Fotoğraf sil';
 
 $LNG['ttl_notificationl'] = 'Beğeni bildirimleri';
-$LNG['sub_notificationl'] = ' <strong>Beğeniler</strong> için görüntüleme uyarısı ve bildirimler';
+$LNG['sub_notificationl'] = '<strong>Beğeniler</strong> için görüntüleme uyarısı ve bildirimler';
 
 $LNG['ttl_notificationc'] = 'Yorum bildirimleri';
 $LNG['sub_notificationc'] = '<strong>Yorumlar</strong> için görüntüleme uyarısı ve bildirimler';
@@ -431,6 +436,7 @@ $LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Şikayetler 
 $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Reklamları Yönet';
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Kategorileri Yönet';
 $LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Bilgi Sayfaları';
+$LNG['admin_menu_newsletter']			= $LNG['admin_ttl_newsletter'] 		= 'Bülten';
 
 $LNG['admin_ttl_title'] = 'Başlık';
 $LNG['admin_sub_title'] = 'Sitenin başlığı';
@@ -458,6 +464,9 @@ $LNG['admin_sub_chat_perpage'] = 'Her sayfadaki sohbet sayısı';
 
 $LNG['admin_ttl_permalinks'] = 'Permalinks';
 $LNG['admin_sub_permalinks'] = 'Uygun permalink URL yapısı (example.com/profile/username)';
+
+$LNG['admin_ttl_email_activation'] = 'Email aktivasyonu';
+$LNG['admin_sub_email_activation'] = 'Hesabın mail yoluyla aktif edilmesi gereklidir';
 
 $LNG['admin_ttl_volume'] = 'Ses ayarı';
 $LNG['admin_sub_volume'] = 'Standart ses düzeyine ayarla';
@@ -539,6 +548,9 @@ $LNG['smtp_sub_host'] = 'The SMTP Host';
 
 $LNG['smtp_port'] = 'SMTP Port';
 $LNG['smtp_sub_port'] = 'The SMTP Port';
+
+$LNG['smtp_secure'] = 'SMTP Secure';
+$LNG['smtp_sub_secure'] = 'SMTP Secure uygunluğu';
 
 $LNG['smtp_auth'] = 'SMTP Authentication';
 $LNG['smtp_sub_auth'] = 'SMTP Authentication uygunluğu';
@@ -646,13 +658,17 @@ $LNG['page_url'] = 'Sayfa URL';
 $LNG['public_page'] = 'Herkese Açık Sayfa';
 $LNG['page_content'] = 'Sayfa İçeriği';
 $LNG['create_page'] = 'Sayfa Oluştur';
+$LNG['email_title'] = 'Email Başlığı';
+$LNG['email_content'] = 'Email İçeriği';
 
 $LNG['sub_page_title'] = 'Sayfa başlığı (Çevirilebilir dizeleri destekler)';
 $LNG['sub_page_url'] = 'Sayfa URL (özel karakterler kullanmayınız)';
 $LNG['sub_public_page'] = 'Sayfayı altkısım ve yan kolonda göster';
 $LNG['sub_page_content'] = 'Sayfa içeriği (Çevirilebilir dizeleri destekler)';
 $LNG['url_exists'] = 'Sayfa URL zaten mevcut';
-$LNG['page_deleted'] = ' <strong>%s</strong>sayfası silinmiş';
+$LNG['page_deleted'] = '<strong>%s</strong> sayfası silinmiş';
+$LNG['newsletter_deleted'] = 'Bülten <strong>%s</strong> silindi';
+$LNG['newsletter_sent'] = 'Bülten gönderildi';
 
 $LNG['per_page'] = '/ sayfa';
 $LNG['per_ip'] = '/ IP';
@@ -774,7 +790,7 @@ $LNG['share_facebook'] = ' Facebook ta paylaş';
 $LNG['share_twitter'] = ' Twitter da paylaş';
 $LNG['share_gplus'] = ' Google+ da paylaş';
 $LNG['share_pinterest'] = ' Pinterest de paylaş';
-$LNG['share_email'] = ' E-mail ile paylaş';
+$LNG['share_email'] = ' Email ile paylaş';
 $LNG['share_sn'] = 'Sosyal ağlarda paylaş';
 $LNG['share_url'] = ' URL paylaş';
 $LNG['embed'] = 'Embed';
@@ -827,6 +843,9 @@ $LNG['delete_account'] = 'Bir hesabı sildiğinizde sunucudaki tüm bilgiler sil
 $LNG['suspend_account'] = 'Bir hesabı askıya alma, hesaba erişimi kısıtlar ve içeriğini gizler. Tamamen geri yüklenebilir.';
 $LNG['restore_account'] = 'Hesabı geri yüklemek hesaba ve içeriğine erişimi geri yükleyecektir.';
 $LNG['account_suspended'] = 'Bu hesap askıya alınmıştır.';
+$LNG['account_not_activated'] = 'Bu hesap aktive edilmedi.Maili tekrar göndermek için lütfen <a href="%s">buraya tıklayınız</a>.';
+$LNG['re_activate_already'] = 'Bir aktivasyon maili bugün zaten gönderilmişti';
+$LNG['re_activate_sent'] = 'Bir aktivasyon maili gönderildi ';
 $LNG['view'] = 'Göster';
 $LNG['uploading'] = 'Yükleniyor';
 $LNG['processing'] = 'İşleniyor...';
@@ -869,7 +888,7 @@ $LNG['people'] = 'kişiler';
 $LNG['join_date'] = 'Katılma Tarihi';
 
 // PHP MODULES
-$LNG['openssl_error'] = ' <strong>OpenSSL</strong>serverdaki extension açık olmalı';
+$LNG['openssl_error'] = '<strong>OpenSSL</strong>serverdaki extension açık olmalı';
 $LNG['curl_error'] = '<strong>cURL</strong> eklentisinin açık olması önerilir';
 
 // PRO MESSAGES

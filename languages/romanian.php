@@ -12,12 +12,14 @@ $LNG['lang_direction'] = 'ltr';
 
 $LNG['user_success'] = 'Utilizator creeat cu succes';
 $LNG['user_exists'] = 'Acest nume de utilizator există deja';
-$LNG['email_exists'] = 'Acest e-mail este folosit deja';
+$LNG['email_exists'] = 'Acest email este folosit deja';
 $LNG['all_fields'] = 'Toate câmpurile sunt obligatorii';
 $LNG['user_alnum'] = 'Numele de utilizator trebuie să conțină doar litere și numere';
 $LNG['user_too_short'] = 'Numele de utilizator trebuie să fie între 3 și 32 de caractere';
 $LNG['user_limit'] = 'Prea multe conturi creeate de pe acest IP';
-$LNG['invalid_email'] = 'E-mail invalid';
+$LNG['invalid_email'] = 'Email invalid';
+$LNG['activate_email'] = 'Un link de activare ți-a fost trimis pe email';
+$LNG['account_activated'] = 'Contul tău a fost activat';
 $LNG['invalid_user_pw'] = 'Utilizatorul sau parola sunt invalide';
 $LNG['invalid_captcha'] = 'Captcha invalid';
 $LNG['log_out'] = 'Deconectare';
@@ -43,9 +45,9 @@ $LNG['latest'] = 'Recente';
 $LNG['upload_desc'] = 'Încarcă-ți sunetele, melodiile, podcast-urile pentru lume';
 $LNG['audience_desc'] = 'Conectează-te cu comunitatea ta și crește-ți audiența';
 $LNG['statistics_desc'] = 'Cunoaște-ți audiența melodiilor cu statistici avansate';
-$LNG['explore_desc'] = 'Explorează muzică noua, descoperă oameni noi și implică-te cu noi artiști';
+$LNG['explore_desc'] = 'Explorează și transmite muzică, conectează-te cu artiști noi';
 $LNG['share_desc'] = 'Împărtășește-ți muzica favorită cu prietenii pe rețelele de socializare';
-$LNG['organize_desc'] = 'Creează Playlisturi și organizează-ți muzica în felul în care îți place';
+$LNG['organize_desc'] = 'Creează Playlist-uri și organizează-ți muzica în felul în care îți place';
 $LNG['forgot_password'] = 'Ai uitat parola?';
 $LNG['all_rights_reserved'] = 'Toate drepturile rezervate';
 
@@ -107,6 +109,8 @@ $LNG['copyright_mail_0'] = $LNG['email_hello'].'Melodia <a href="%s">%s</a> ți-
 $LNG['copyright_mail_1'] = $LNG['email_hello'].'Melodia violatoare <a href="%s">%s</a> a fost suspendată. Mulțumim. ID caz: %s'.$LNG['email_footer_gen'];
 $LNG['ttl_suspended_account_mail'] = 'Contul dumneavoastră a fost suspendat';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Contul tău a fost suspendat. Dacă consideri ca a fost o eroare, te rugăm să ne contactezi.'.$LNG['email_footer_gen'];
+$LNG['ttl_confirm_email'] = 'Activează-ți contul';
+$LNG['confirm_email'] = $LNG['email_hello'].'Mulțumim că te-ai alăturat <strong>%s</strong>. Finalizați înregistrarea <a href="%s" target="_blank">dând click aici</a>.'.$LNG['email_copy'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'General';
@@ -207,7 +211,7 @@ $LNG['subscribers'] = 'Urmăritori';
 $LNG['welcome'] = 'Bine ai venit';
 $LNG['sidebar_people'] = 'Persoane';
 $LNG['sidebar_tracks'] = 'Melodii';
-$LNG['sidebar_playlists'] = 'Playlisturi';
+$LNG['sidebar_playlists'] = 'Playlist-uri';
 $LNG['online_friends'] = 'Prieteni online';
 $LNG['sidebar_likes'] = 'Aprecieri';
 $LNG['sidebar_comments'] = 'Comentarii';
@@ -257,7 +261,8 @@ $LNG['12_upload_err'] = 'Numele unui tag trebuie să fie mai mic de %s caractere
 $LNG['track_updated'] = 'Melodia a fost actualizată cu succes';
 $LNG['view_track'] = 'Vezi Melodie';
 $LNG['congratulations'] = 'Felicitări';
-$LNG['track_uploaded'] = 'Melodia <strong><a href="%s" rel="loadpage">%s</a></strong> a fost încărcată cu succes.';
+$LNG['track_uploaded'] = 'Melodia <strong><a href="%s" rel="loadpage">%s</a></strong> a fost încărcată';
+$LNG['playlist_created'] = 'Playlist-ul <strong><a href="%s" rel="loadpage">%s</a></strong> a fost creeat';
 $LNG['or'] = 'sau';
 
 $LNG['license'] = 'Licență';
@@ -317,7 +322,7 @@ $LNG['ttl_last_name'] = 'Prenume';
 $LNG['sub_last_name'] = 'Introduceți prenumele';
 
 $LNG['ttl_email'] = 'Email';
-$LNG['sub_email'] = 'Adresa e-mail nu va fi afișată';
+$LNG['sub_email'] = 'Adresa email nu va fi afișată';
 
 $LNG['ttl_country'] = 'Țara';
 $LNG['sub_country'] = 'Țara în care locuiești';
@@ -431,6 +436,7 @@ $LNG['admin_menu_manage_reports']		= $LNG['admin_ttl_reports']			= 'Manageriază
 $LNG['admin_menu_manage_ads'] 			= $LNG['admin_ttl_ads']				= 'Manageriază Reclame';
 $LNG['admin_menu_manage_categories']	= $LNG['admin_ttl_categories']		= 'Manageriază Categorii';
 $LNG['admin_menu_info_pages']			= $LNG['admin_ttl_info_pages'] 		= 'Info Pagini';
+$LNG['admin_menu_newsletter']			= $LNG['admin_ttl_newsletter'] 		= 'Buletin Informativ';
 
 $LNG['admin_ttl_title'] = 'Titlu';
 $LNG['admin_sub_title'] = 'Titlul site-ului';
@@ -458,6 +464,9 @@ $LNG['admin_sub_chat_perpage'] = 'Numărul conversațiilor pe pagină';
 
 $LNG['admin_ttl_permalinks'] = 'Permalinkuri';
 $LNG['admin_sub_permalinks'] = 'Activează structură de link-uri permanente (example.com/profile/username)';
+
+$LNG['admin_ttl_email_activation'] = 'Activare Email';
+$LNG['admin_sub_email_activation'] = 'Necesită activarea contului prin email';
 
 $LNG['admin_ttl_volume'] = 'Volum';
 $LNG['admin_sub_volume'] = 'Setează volumul predefinit';
@@ -539,6 +548,9 @@ $LNG['smtp_sub_host'] = 'Hostul SMTP';
 
 $LNG['smtp_port'] = 'Port SMTP';
 $LNG['smtp_sub_port'] = 'Portul SMTP';
+
+$LNG['smtp_secure'] = 'SMTP Secure';
+$LNG['smtp_sub_secure'] = 'Activează SMTP Secure';
 
 $LNG['smtp_auth'] = 'Autentificare SMTP';
 $LNG['smtp_sub_auth'] = 'Activează Autentificare SMTP';
@@ -646,6 +658,8 @@ $LNG['page_url'] = 'URL pagină';
 $LNG['public_page'] = 'Pagină Publică';
 $LNG['page_content'] = 'Conținut Pagină';
 $LNG['create_page'] = 'Creează o pagină';
+$LNG['email_title'] = 'Titlu Email';
+$LNG['email_content'] = 'Conținut Email';
 
 $LNG['sub_page_title'] = 'Titlul paginii (suportă texte translatabile)';
 $LNG['sub_page_url'] = 'URL-ul paginii (fără caractere speciale)';
@@ -653,6 +667,8 @@ $LNG['sub_public_page'] = 'Afisează pagina în subsol și meniul lateral';
 $LNG['sub_page_content'] = 'Conținutul paginii (suportă texte translatabile)';
 $LNG['url_exists'] = 'Acest URL de pagină există deja';
 $LNG['page_deleted'] = 'Pagina <strong>%s</strong> a fost ștearsă';
+$LNG['newsletter_deleted'] = 'Buletinul informativ <strong>%s</strong> a fost șters';
+$LNG['newsletter_sent'] = 'Buletinul informativ trimis';
 
 $LNG['per_page'] = '/ pagină';
 $LNG['per_ip'] = '/ IP';
@@ -730,11 +746,11 @@ $LNG['downloads_today'] = 'Descărcări Astăzi';
 $LNG['downloads_this_month'] = 'Descărcări luna aceasta';
 $LNG['downloads_last_30'] = 'Ultimele 30 de zile';
 $LNG['downloads_total'] = 'Total Descărcări';
-$LNG['playlists'] = 'Playlisturi';
+$LNG['playlists'] = 'Playlist-uri';
 $LNG['playlist'] = 'Playlis';
-$LNG['playlists_today'] = 'Playlisturi astazi';
+$LNG['playlists_today'] = 'Playlist-uri astazi';
 $LNG['playlists_this_month'] = 'Playlists luna asta';
-$LNG['playlists_total'] = 'Total Playlisturi';
+$LNG['playlists_total'] = 'Total Playlist-uri';
 $LNG['listened_x_times'] = 'Ascultată de %s ori';
 $LNG['downloaded_x_times'] = 'Descărcată de %s ori';
 $LNG['payments'] = 'Plăți';
@@ -827,6 +843,9 @@ $LNG['delete_account'] = 'Ștergerea unui cont rezultă în ștergerea tuturor i
 $LNG['suspend_account'] = 'Suspendarea unui cont va restricționa accesul utilizatorului la cont și va ascunde conținutul acestuia, contul putând fi restaurat.';
 $LNG['restore_account'] = 'Restaurarea unui cont îi va restitui accesul la cont și conținut.';
 $LNG['account_suspended'] = 'Acest cont este momentan suspendat.';
+$LNG['account_not_activated'] = 'Acest cont nu este activat. <a href="%s">Click aici</a> pentru a retrimite emailul de activare.';
+$LNG['re_activate_already'] = 'A fost deja trimis un email de activare astăzi';
+$LNG['re_activate_sent'] = 'Un email de activare a fost trimis';
 $LNG['view'] = 'Vezi';
 $LNG['uploading'] = 'Se încarcă';
 $LNG['processing'] = 'Se procesează...';
