@@ -390,6 +390,9 @@ $LNG['ttl_upload_photo'] = 'Upload Photo';
 $LNG['ttl_upload_cover'] = 'Upload Cover';
 $LNG['ttl_delete_photo'] = 'Delete Photo';
 
+$LNG['ttl_newslettern'] = 'Newsletter';
+$LNG['sub_newslettern'] = 'Receive newsletter emails';
+
 $LNG['ttl_notificationl'] = 'Likes Notifications';
 $LNG['sub_notificationl'] = 'Display alert and notifications for <strong>Likes</strong>';
 

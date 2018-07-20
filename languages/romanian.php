@@ -390,6 +390,9 @@ $LNG['ttl_upload_photo'] = 'Încarcă Imagine';
 $LNG['ttl_upload_cover'] = 'Încarcă Copertă';
 $LNG['ttl_delete_photo'] = 'Șterge Imagine';
 
+$LNG['ttl_newslettern'] = 'Buletin informativ';
+$LNG['sub_newslettern'] = 'Primește emailuri cu buletine informative';
+
 $LNG['ttl_notificationl'] = 'Notificări Aprecieri';
 $LNG['sub_notificationl'] = 'Afișează alertă și notificare pentru <strong>Aprecieri</strong>';
 

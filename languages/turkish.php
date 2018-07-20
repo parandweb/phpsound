@@ -390,6 +390,9 @@ $LNG['ttl_upload_photo'] = 'Fotoğraf yükle';
 $LNG['ttl_upload_cover'] = 'Kapak yükle';
 $LNG['ttl_delete_photo'] = 'Fotoğraf sil';
 
+$LNG['ttl_newslettern'] = 'Bülten';
+$LNG['sub_newslettern'] = 'Bülten email alın';
+
 $LNG['ttl_notificationl'] = 'Beğeni bildirimleri';
 $LNG['sub_notificationl'] = '<strong>Beğeniler</strong> için görüntüleme uyarısı ve bildirimler';
 
@@ -403,7 +406,7 @@ $LNG['ttl_notificationf'] = 'Arkadaş bildirimleri';
 $LNG['sub_notificationf'] = '<strong>Arkadaş eklemeleri</strong> için görüntüleme uyarısı ve bildirimler';
 
 $LNG['ttl_email_comment'] = 'Yorumlarda email';
-$LNG['sub_email_comment'] = 'birileri parçalarınız için yorum yaptığında email al';
+$LNG['sub_email_comment'] = 'Birileri parçalarınız için yorum yaptığında email al';
 
 $LNG['ttl_email_like'] = 'Beğenilerde email';
 $LNG['sub_email_like'] = 'Birileri parçalarını beğendiğinde email al';
