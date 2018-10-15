@@ -6,7 +6,7 @@ $name = 'Romanian';
 $author = 'phpSound';
 
 // Language URL
-$url = 'http://phpsound.com';
+$url = 'https://phpsound.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -110,7 +110,7 @@ $LNG['copyright_mail_1'] = $LNG['email_hello'].'Melodia violatoare <a href="%s">
 $LNG['ttl_suspended_account_mail'] = 'Contul dumneavoastră a fost suspendat';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Contul tău a fost suspendat. Dacă consideri ca a fost o eroare, te rugăm să ne contactezi.'.$LNG['email_footer_gen'];
 $LNG['ttl_confirm_email'] = 'Activează-ți contul';
-$LNG['confirm_email'] = $LNG['email_hello'].'Mulțumim că te-ai alăturat <strong>%s</strong>. Finalizați înregistrarea <a href="%s" target="_blank">dând click aici</a>.'.$LNG['email_copy'];
+$LNG['confirm_email'] = $LNG['email_hello'].'Mulțumim că te-ai alăturat <strong>%s</strong>. Finalizați înregistrarea <a href="%s" target="_blank">dând click aici</a>.'.$LNG['email_footer_gen'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'General';
@@ -147,7 +147,7 @@ $LNG['comment_error'] = 'Ne pare rău, nu am putut publica acest comentariu, te 
 $LNG['track_hidden_1'] = 'Ne pare rău, dar această melodie este privată, doar autorul melodiei o poate vedea.';
 $LNG['track_hidden_2'] = 'Ne pare rău, dar setările de profil ale acestui utilizator permit doar urmăritorilor lui să vadă această melodie.';
 $LNG['track_hidden_1_ttl'] = $LNG['track_hidden_2_ttl'] = 'Melodie Privată';
-$LNG['track_suspended_1'] = 'Ne pare rău, dar această melodie a fost dezactivată din cauza unei revendicări copyright. Dacă consideri ca a fost o eroare, te rugăm să ne contactezi.';
+$LNG['track_suspended_1'] = 'Ne pare rău, dar această melodie a fost dezactivată. Dacă consideri ca a fost o eroare, te rugăm să ne contactezi.';
 $LNG['track_suspended_1_ttl'] = 'Melodie dezactivată';
 $LNG['playlist_hidden'] = 'Ne pare rău, dar acest playlist este privat, doar autorul playlist-ului îl poate vedea.';
 $LNG['playlist_hidden_ttl'] = 'Playlist Privat';
@@ -179,7 +179,8 @@ $LNG['deleted_comment'] = 'Comentariul a fost șters.';
 $LNG['suspended_track'] = 'Melodia a fost suspendată.';
 $LNG['restored_track'] = 'Melodia a fost restaurată.';
 $LNG['safe_report'] = 'Raportul a fost marcat ca sigur.';
-$LNG['rci'] = 'Raportează încălcare drepturi autor';
+$LNG['reason'] = 'Motiv';
+$LNG['report_ci'] = 'Încălcare drepturi autor';
 $LNG['report_track'] = 'Raportează melodie';
 $LNG['signature'] = 'Semnatură';
 $LNG['sub_signature'] = 'Scriind numele tău complet în această căsuță, va fi considerat ca fiind semnatura ta electronică.';
@@ -189,6 +190,7 @@ $LNG['report2'] = 'Confirm că informațiile din această notificare sunt corect
 $LNG['report3'] = 'Confirm că sunt deținătorul drepturilor de autor sau că sunt autorizat să actionez în numele deținătorului drepturilor de autor ale cărui drepturi îi sunt încălcate. Fac apel la legea United States Digital Millennium Copyright Act U.S.C. 17 &sect;512(c), fac această declarație sub pedeapsă de sperjur.';
 $LNG['rep_resc_error'] = 'Descrierea trebuie să fie mai mică de %s de caractere.';
 $LNG['abusive_comment'] = 'Comentariu abuziv';
+$LNG['abusive_track'] = 'Melodie abuzivă';
 $LNG['copyright_infringement'] = 'Încalcare drepturi de autor';
 $LNG['claimant'] = 'Reclamant';
 $LNG['infringing_material'] = 'Materialul în cauză';
@@ -568,14 +570,11 @@ $LNG['standard_accounts'] = 'Conturi Standard';
 $LNG['admin_ttl_ppapp'] = 'Conturi Pro';
 $LNG['admin_sub_ppapp'] = 'Activează Conturi Pro prin PayPal';
 
-$LNG['admin_ttl_ppuser'] = 'PayPal Username';
-$LNG['admin_sub_ppuser'] = 'PayPal API Username';
+$LNG['admin_ttl_ppclientid'] = 'PayPal Client ID';
+$LNG['admin_sub_ppclientid'] = 'PayPal Client ID';
 
-$LNG['admin_ttl_pppass'] = 'PayPal Password'; 
-$LNG['admin_sub_pppass'] = 'PayPal API Password';
-
-$LNG['admin_ttl_ppsign'] = 'PayPal Signature';
-$LNG['admin_sub_ppsign'] = 'PayPal API Signature';
+$LNG['admin_ttl_ppsecret'] = 'PayPal Secret';
+$LNG['admin_sub_ppsecret'] = 'PayPal Secret';
 
 $LNG['admin_ttl_ppsand'] = 'PayPal Sandbox';
 $LNG['admin_sub_ppsand'] = 'PayPal sandbox pentru modul dezvoltator';
@@ -688,7 +687,7 @@ $LNG['add_category'] = 'Adaugă categorie';
 $LNG['add_category_desc'] = 'Aceste categorii apar pe pagina Exploră';
 $LNG['case_id'] = 'ID Caz';
 $LNG['enter_case_id'] = 'Introdu ID-ul de caz pe care dorești să-l vezi';
-$LNG['valid_rcs'] = 'Raporturi valide de încălcare a dreptului de autor';
+$LNG['valid_rcs'] = 'Raporturi valide';
 $LNG['payment_id'] = 'ID Plantă';
 $LNG['enter_payment_id'] = 'Introdu ID-ul plășii pe care doreși s-o vezi';
 
@@ -977,6 +976,7 @@ $LNG['track'] = 'Melodie';
 $LNG['tracks'] = 'Melodii';
 $LNG['pages'] = 'Pagini';
 $LNG['report'] = 'Raport';
+$LNG['other'] = 'Alte';
 $LNG['stats'] = 'Statistici';
 $LNG['author'] = 'Autor';
 $LNG['latest_music'] = 'Ultimele Melodii';

@@ -6,7 +6,7 @@ $name = 'Turkish';
 $author = 'Safak Mocuk';
 
 // Language URL
-$url = 'http://phpsound.com';
+$url = 'https://phpsound.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -42,7 +42,7 @@ $LNG['organize'] = 'Düzenle';
 $LNG['featured'] = 'Featured';
 $LNG['popular'] = 'Popüler';
 $LNG['latest'] = 'En Son';
-$LNG['upload_desc'] = 'Müziğini, sesini, podcastini  yükle bütün dünyaya gönder';
+$LNG['upload_desc'] = 'Müziğini, sesini, podcastini yükle bütün dünyaya gönder';
 $LNG['audience_desc'] = 'Topluluğumuza katıl izleyici sayını arttır';
 $LNG['statistics_desc'] = 'İzleyicilerin hakkında ileri düzey istatistiklere ulaş';
 $LNG['explore_desc'] = 'Müziği keşfedin ve yayınlayın, yeni sanatçılarla bağlantı kurun';
@@ -62,10 +62,10 @@ $LNG['profile_picture_saved'] = 'Profil resminiz değiştirildi.';
 $LNG['error'] = 'Hata';
 $LNG['no_file'] = 'Yüklenecek hiçbir dosya seçmediniz, ya da seçtiğiniz dosyalar boş olabilir.';
 $LNG['file_exceeded'] = 'Seçtiğiniz dosya boyutu <strong>%s</strong> MB tan daha fazla olamaz.';
-$LNG['file_format'] = 'Seçtiğiniz dosya formatı desteklenmiyor.  <strong>%s</strong> dosya formatlarını yükleyiniz';
+$LNG['file_format'] = 'Seçtiğiniz dosya formatı desteklenmiyor. <strong>%s</strong> dosya formatlarını yükleyiniz';
 $LNG['image_removed'] = 'Resim Kaldırıldı';
 $LNG['profile_picture_removed'] = 'Profil resminiz kaldırıldı.';
-$LNG['profile_description'] = 'Profil açıklamanız  %s karakter ya da daha az olmalı.';
+$LNG['profile_description'] = 'Profil açıklamanız %s karakter ya da daha az olmalı.';
 $LNG['playlist_description'] = 'Çalma listesi açıklaması %s karakter ya da daha az olmalı.';
 $LNG['playlist_name_empty'] = 'Çalma listesi boş bırakılamaz.';
 $LNG['changes_saved'] = 'Değişiklikler başarı ile gerçekleştirildi.';
@@ -92,25 +92,25 @@ $LNG['password_reset'] = 'Şifrenizi başarılı şekilde sıfırladınız. Art�
 
 // MAIL CONTENT //
 $LNG['welcome_mail'] = 'Hoşgeldiniz %s ';
-$LNG['email_footer_unsub'] = '<br><br><span style="color: #aaa;">Bu email otomatik olarak gönderilmiştir, gelecekte bu gibi emailleri <strong>%s</strong> sitesinden  almak istemiyorsanız, lütfen <a href="%s">mail listesinden ayrılın</a>.</span>';
+$LNG['email_footer_unsub'] = '<br><br><span style="color: #aaa;">Bu email otomatik olarak gönderilmiştir, gelecekte bu gibi emailleri <strong>%s</strong> sitesinden almak istemiyorsanız, lütfen <a href="%s">mail listesinden ayrılın</a>.</span>';
 $LNG['email_footer_gen'] = '<br><br><span style="color: #aaa;">Copyright &copy; '.date('Y').' <a href="%s">%s</a>. All rights reserved.';
 $LNG['email_hello'] = 'Merhaba <strong>%s</strong>,<br><br>';
 $LNG['user_created'] = 'Katılımınız için teşekkür ederiz <strong>%s</strong><br><br>Kullanıcı adınız: <strong>%s</strong><br><br>Buradan giriş yapabilirsiniz : <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['recover_mail'] = 'Şifre Kurtarma';
 $LNG['recover_content'] = 'Bir şifre kurtarma talebi oluşturuldu, böyle bir talebiniz olmadı ise bu emaili gözardı edebilirsiniz. <br><br>Kullanıcı adınız: <strong>%s</strong><br>Sıfırlama anahtarınız: <strong>%s</strong><br><br>Sıfırlama sayfasına ulaşmak için linke tıklayınız: <a href="%s" target="_blank">%s</a>'.$LNG['email_footer_gen'];
 $LNG['ttl_comment_email'] = '%s kaydınıza yorum yaptı';
-$LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> , <strong><a href="%s">kaydınıza yorum yaptı.</a></strong>'.$LNG['email_footer_unsub'];
+$LNG['comment_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong>, <strong><a href="%s">kaydınıza yorum yaptı.</a></strong>'.$LNG['email_footer_unsub'];
 $LNG['ttl_like_email'] = '%s kaydınızı beğendi';
-$LNG['like_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> , <strong><a href="%s">kaydınızı beğendi.</a></strong>'.$LNG['email_footer_unsub'];
+$LNG['like_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong>, <strong><a href="%s">kaydınızı beğendi.</a></strong>'.$LNG['email_footer_unsub'];
 $LNG['ttl_new_friend_email'] = '%s sizi arkadaş olarak ekledi';
 $LNG['new_friend_email'] = $LNG['email_hello'].'<strong><a href="%s">%s</a></strong> sizi arkadaş olarak ekledi.'.$LNG['email_footer_unsub'];
 $LNG['ttl_copyright_notification'] = 'Telif hakkı - %s';
-$LNG['copyright_mail_0'] = $LNG['email_hello'].'Kaydınız <a href="%s">%s</a> telif hakları gerekçesiyle <a href="%s">%s</a> tarafından askıya alındı.Eğer bunun bir hata olduğunu düşünüyorsanız , lütfen bizimle iletişime geçiniz. VAKA ID: %s'.$LNG['email_footer_gen'];
+$LNG['copyright_mail_0'] = $LNG['email_hello'].'Kaydınız <a href="%s">%s</a> telif hakları gerekçesiyle <a href="%s">%s</a> tarafından askıya alındı.Eğer bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçiniz. VAKA ID: %s'.$LNG['email_footer_gen'];
 $LNG['copyright_mail_1'] = $LNG['email_hello'].'Hak ihlali yapılmış kayıt <a href="%s">%s</a> askıya alınmıştır. Teşekkürler. VAKA ID: %s'.$LNG['email_footer_gen'];
 $LNG['ttl_suspended_account_mail'] = 'Hesabınız askıya alınmıştır';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Hesabınız askıya alınmıştır. Eğer bunun bir hata olduğunu düşünüyorsanız, lütfen bizimle iletişime geçiniz.'.$LNG['email_footer_gen'];
 $LNG['ttl_confirm_email'] = 'Hesabınızı aktif ediniz';
-$LNG['confirm_email'] = $LNG['email_hello'].'<strong>%s</strong> katılımınız için teşekkür ederiz. Kayıt işleminizi <a href="%s" target="_blank">bu linke tıklayarak tamamlayınız</a>.'.$LNG['email_copy'];
+$LNG['confirm_email'] = $LNG['email_hello'].'<strong>%s</strong> katılımınız için teşekkür ederiz. Kayıt işleminizi <a href="%s" target="_blank">bu linke tıklayarak tamamlayınız</a>.'.$LNG['email_footer_gen'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'Genel';
@@ -147,7 +147,7 @@ $LNG['comment_error'] = 'Üzgünüz, yorumunuzu gönderemedik, lütfen sayfayı 
 $LNG['track_hidden_1'] = 'Üzgünüz, fakat bu parça özeldir, sadece yazarı görüntüleyebilir.';
 $LNG['track_hidden_2'] = 'Üzgünüz, yazarın profil ayarları gereği bu parçayı sadece takipçileri görüntüleyebiliyor.';
 $LNG['track_hidden_1_ttl'] = $LNG['track_hidden_2_ttl'] = 'Özel parça';
-$LNG['track_suspended_1'] = 'Üzgünüz, bu parça telif hakları gereğince engellnmiştir. Bunun bir hata olduğunu düşünüyorsanız ,bizimle iletişime geçiniz.';
+$LNG['track_suspended_1'] = 'Üzgünüz, ancak bu parça devre dışı bırakıldı. Bunun bir hata olduğunu düşünüyorsanız, bizimle iletişime geçiniz.';
 $LNG['track_suspended_1_ttl'] = 'Engellenmiş parça';
 $LNG['playlist_hidden'] = 'Üzgünüz, bu çalma listesi özeldir, sadece bu çalma listesinin yazarı içeriği görebilir.';
 $LNG['playlist_hidden_ttl'] = 'Özel çalma listesi';
@@ -165,13 +165,13 @@ $LNG['close'] = 'Kapat';
 $LNG['1_not_exists'] = 'Şikayet edilmiş parça mevcut değil.';
 $LNG['0_not_exists'] = 'Şikayet edilen yorum mevcut değil.';
 $LNG['1_already_reported'] = 'Bu parça zaten şikayet edilmiş durumda ve en kısa sürede inceleme yapılacak, teşekkür ederiz.';
-$LNG['0_already_reported'] = 'Bu yorum zaten şikayet  edilmiş durumda ve en kısa sürede inceleme yapılacak, teşekkür ederiz.';
-$LNG['1_is_safe'] = 'Bu parça yönetici tarafından  <strong>güvenli</strong> olarak işaretlenmiştir, geri bildiriminiz için teşekkürler.';
+$LNG['0_already_reported'] = 'Bu yorum zaten şikayet edilmiş durumda ve en kısa sürede inceleme yapılacak, teşekkür ederiz.';
+$LNG['1_is_safe'] = 'Bu parça yönetici tarafından <strong>güvenli</strong> olarak işaretlenmiştir, geri bildiriminiz için teşekkürler.';
 $LNG['0_is_safe'] = 'This comment is marked as <strong>safe</strong> by an administrator, thank you for your feedback.';
 $LNG['1_report_added'] = 'Bu parça için şikayet bildirimi yapılmış, geri bildiriminiz için teşekkürler.';
 $LNG['0_report_added'] = 'Yorum için şikayet kaydı oluşturulmuş, geri bildiriminiz için teşekkürler.';
 $LNG['1_report_error'] = 'Üzgünüz bu parça için şikayet bildirimi oluşturulurken birşeyler yanlış gitti, lütfen sayfayı yenileyerek tekrar deneyiniz.';
-$LNG['0_report_error'] = 'Üzgünüz bu yorum için şikayet kaydı oluşturulurken birşeyler yanlış gitti ,lütfen sayfayı yenileyerek tekrar deneyiniz.';
+$LNG['0_report_error'] = 'Üzgünüz bu yorum için şikayet kaydı oluşturulurken birşeyler yanlış gitti, lütfen sayfayı yenileyerek tekrar deneyiniz.';
 $LNG['1_is_deleted'] = 'Parça kaldırılmıştır, geribildiriminiz için teşekkürler.';
 $LNG['0_is_deleted'] = 'Yorum kaldırılmıştır, geribildiriminiz için teşekkürler.';
 $LNG['deleted_track'] = 'Parça silinmiştir.';
@@ -179,7 +179,8 @@ $LNG['deleted_comment'] = 'Yorum silinmiştir.';
 $LNG['suspended_track'] = 'Parça askıya alınmıştır.';
 $LNG['restored_track'] = 'Parça yeniden düzenlenmiştir.';
 $LNG['safe_report'] = 'Şikayet kaydı güvenli olarak işaretlenmiştir.';
-$LNG['rci'] = 'Telif hakkı ihalali bildirimi';
+$LNG['reason'] = 'Sebep';
+$LNG['report_ci'] = 'Telif hakkı ihlali';
 $LNG['report_track'] = 'Parçayı bildir';
 $LNG['signature'] = 'İmza';
 $LNG['sub_signature'] = 'Bu kutucuya yazacağınız tam isminiz elektronik imzanız yerine geçecektir';
@@ -187,8 +188,9 @@ $LNG['report_description'] = 'Lütfen mümkün olan en geniş açıklama ile ken
 $LNG['report1'] = 'Yukarıda açıklanan telif hakkıyla korunan çalışmanın telif hakkı sahibi, temsilcisi veya yasası tarafından yetkilendirilmediğine düşünüyorum';
 $LNG['report2'] = 'Bu bildirimde bahsedilen bilgilerin doğruluğunu onaylarım';
 $LNG['report3'] = 'Telif hakkı sahibi olduğumu veya ihlal edildiği iddia edilen münhasır hakkın sahibi adına hareket etme yetkisine sahip olduğumu onaylıyorum.Türkiye Mahkemelerinde, bu koşullar altında dava etme durumumun mevcut olduğunu onaylarım';
-$LNG['rep_resc_error'] = 'The description should be less than %s characters';
+$LNG['rep_resc_error'] = 'Açıklama %s karakterden az olmalıdır';
 $LNG['abusive_comment'] = 'Küfürlü yorum';
+$LNG['abusive_track'] = 'Küfürlü parça';
 $LNG['copyright_infringement'] = 'Telif hakkı ihlali';
 $LNG['claimant'] = 'davacı';
 $LNG['infringing_material'] = 'Telifi ihlal edilen materyal';
@@ -254,7 +256,7 @@ $LNG['5_upload_err'] = 'Seçilen kapak görseli geçerli dosya formatında deği
 $LNG['6_upload_err'] = 'Açıklama %s karakterden daha az sayıda olmalıdır';
 $LNG['7_upload_err'] = 'Satın alma linki geçerli bir URL adresi içermiyor';
 $LNG['8_upload_err'] = ' %s tags a kadar ekleme yapabilirsiniz';
-$LNG['9_upload_err'] = 'En az  %s etiket eklemeye ihtiyacınız var';
+$LNG['9_upload_err'] = 'En az %s etiket eklemeye ihtiyacınız var';
 $LNG['10_upload_err'] = 'Parça başlığı boş bırakılamaz';
 $LNG['11_upload_err'] = 'Parça başlığı %s karakterden daha az olmalı';
 $LNG['12_upload_err'] = 'Etiket içeriği %s karakterden az olmalı';
@@ -283,8 +285,8 @@ $LNG['license_nc'] = 'Ticari değil';
 $LNG['license_nd'] = 'Benzer çalışması olmayan';
 $LNG['license_sa'] = 'Gibi paylaş';
 $LNG['license_at_desc'] = 'Telif hakkıyla korunan çalışmanızın ve bunlara dayanan türev çalışmaların başkalarının kopyasını, dağıtımını, görüntülemesini ve gerçekleştirmesine izin veriyorsunuz, ancak sizi refere ettikleri ve sizden talep ettikleri durumlarda.';
-$LNG['license_nc_desc'] = 'You let others copy, distribute, display, and perform your work - and derivative works based upon it - but for noncommercial purposes only.';
-$LNG['license_nd_desc'] = 'You let others copy, distribute, display, and perform only verbatim copies of your work, not derivative works based upon it.';
+$LNG['license_nc_desc'] = 'Başkalarının kopyalamanıza, dağıtmanıza, görüntülemenize ve çalışmanızı - ve buna dayalı türev çalışmalarınızı - gerçekleştirmesine izin vermektesiniz - ancak ticari olmayan amaçlar için.';
+$LNG['license_nd_desc'] = 'Başkalarının kopyalamasına, dağıtmasına, göstermesine ve yalnızca çalışmanızın türev kopyalarını değil, çalışmanızın sözlü kopyalarını gerçekleştirmesine izin verirsiniz.';
 $LNG['license_sa_desc'] = 'Diğer kişilerin türev çalışmalarını, yalnızca işinizi yöneten lisansa benzer bir lisansla dağıtmalarına izin veriyorsunuz.';
 
 // USER PANEL //
@@ -508,7 +510,7 @@ $LNG['admin_ttl_track_size'] = 'Parça boyutu';
 $LNG['admin_sub_track_size'] = 'Yüklenmesine izin verilen parça boyutu (in MB)';
 
 $LNG['admin_ttl_track_format'] = 'Parça Formatı';
-$LNG['admin_sub_track_format'] = 'Yüklenmesine izin verilen parça formatı, kullanabileceğiniz formatlar mp3,m4a,mp4 other diğer formatlar desteklenmemektedir';
+$LNG['admin_sub_track_format'] = 'Yüklenmesine izin verilen parça formatı, kullanabileceğiniz formatlar mp3,m4a,mp4 diğer formatlar desteklenmemektedir';
 
 $LNG['admin_ttl_total_upload_size'] = 'Toplam Yükleme';
 $LNG['admin_sub_total_upload_size'] = 'Bir kullanıcı için izin verilen toplam parça boyutu (MB)';
@@ -559,7 +561,7 @@ $LNG['smtp_auth'] = 'SMTP Authentication';
 $LNG['smtp_sub_auth'] = 'SMTP Authentication uygunluğu';
 
 $LNG['smtp_username'] = 'SMTP kullanıcı adı';
-$LNG['smtp_sub_username'] = 'The SMTP kullanıcı adı';
+$LNG['smtp_sub_username'] = 'SMTP kullanıcı adı';
 
 $LNG['smtp_password'] = 'SMTP şifre';
 $LNG['smtp_sub_password'] = 'SMTP şifre';
@@ -568,14 +570,11 @@ $LNG['standard_accounts'] = 'Standard Hesaplar';
 $LNG['admin_ttl_ppapp'] = 'Pro Hesaplar';
 $LNG['admin_sub_ppapp'] = 'Pro hesapların PayPal ödeme uygunluğu';
 
-$LNG['admin_ttl_ppuser'] = 'PayPal kullanıcı adı';
-$LNG['admin_sub_ppuser'] = 'PayPal API kullanıcı adı';
+$LNG['admin_ttl_ppclientid'] = 'PayPal Client ID';
+$LNG['admin_sub_ppclientid'] = 'PayPal Client ID';
 
-$LNG['admin_ttl_pppass'] = 'PayPal şifre'; 
-$LNG['admin_sub_pppass'] = 'PayPal API şifre';
-
-$LNG['admin_ttl_ppsign'] = 'PayPal imza';
-$LNG['admin_sub_ppsign'] = 'PayPal API imza';
+$LNG['admin_ttl_ppsecret'] = 'PayPal Secret';
+$LNG['admin_sub_ppsecret'] = 'PayPal Secret';
 
 $LNG['admin_ttl_ppsand'] = 'PayPal Sandbox';
 $LNG['admin_sub_ppsand'] = 'PayPal sandbox for development mode';
@@ -688,7 +687,7 @@ $LNG['add_category'] = 'Kategori ekle';
 $LNG['add_category_desc'] = 'Bu kategoriler Keşfet ayfasında görüntüleniyor';
 $LNG['case_id'] = 'Vaka ID';
 $LNG['enter_case_id'] = 'İncelemek istediğiniz Vaka ID sini giriniz';
-$LNG['valid_rcs'] = 'Telif hakkı ihtarı bildirimleri geçerli';
+$LNG['valid_rcs'] = 'Geçerli raporlar';
 $LNG['payment_id'] = 'Ödeme ID';
 $LNG['enter_payment_id'] = 'Görüntülemek istediğiniz ödeme ID sini girin';
 
@@ -771,7 +770,7 @@ $LNG['total_earnings'] = 'Toplam Kazançlar';
 $LNG['admin_panel'] = 'Yönetim Paneli';
 $LNG['at_a_glance'] = 'Bir bakışta';
 $LNG['site_info'] = 'Site bilgisi';
-$LNG['site_version'] = '<a href="%s" target="_blank">%s</a> %s tema ile  <a href="%s" rel="loadpage">%s</a> uygundur';
+$LNG['site_version'] = '<a href="%s" target="_blank">%s</a> %s tema ile <a href="%s" rel="loadpage">%s</a> uygundur';
 $LNG['online_users'] = 'Çevrimiçi Kullanıcılar';
 $LNG['useful_links'] = 'Faydalı linkler';
 $LNG['get_themes'] = 'Daha fazla tema edinin';
@@ -977,6 +976,7 @@ $LNG['track'] = 'Parça';
 $LNG['tracks'] = 'Parçalar';
 $LNG['pages'] = 'Sayfalar';
 $LNG['report'] = 'Şikayet';
+$LNG['other'] = 'Diğer';
 $LNG['stats'] = 'İstatistik';
 $LNG['author'] = 'Yazar';
 $LNG['latest_music'] = 'En son Müzik';

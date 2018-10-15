@@ -6,7 +6,7 @@ $name = 'English';
 $author = 'phpSound';
 
 // Language URL
-$url = 'http://phpsound.com';
+$url = 'https://phpsound.com';
 
 $LNG['lang_direction'] = 'ltr';
 
@@ -110,7 +110,7 @@ $LNG['copyright_mail_1'] = $LNG['email_hello'].'The infringing track <a href="%s
 $LNG['ttl_suspended_account_mail'] = 'Your account has been suspended';
 $LNG['suspended_account_mail'] = $LNG['email_hello'].'Your account has been suspended. If you think this was an error, please contact us.'.$LNG['email_footer_gen'];
 $LNG['ttl_confirm_email'] = 'Activate your account';
-$LNG['confirm_email'] = $LNG['email_hello'].'Thank you for joining <strong>%s</strong>. Finish your registration by <a href="%s" target="_blank">clicking here</a>.'.$LNG['email_copy'];
+$LNG['confirm_email'] = $LNG['email_hello'].'Thank you for joining <strong>%s</strong>. Finish your registration by <a href="%s" target="_blank">clicking here</a>.'.$LNG['email_footer_gen'];
 
 // ADMIN PANEL //
 $LNG['general_link'] = 'General';
@@ -147,7 +147,7 @@ $LNG['comment_error'] = 'Sorry, we couldn\'t post the comment, please refresh th
 $LNG['track_hidden_1'] = 'Sorry, but this track is private, only the author of the track can see it.';
 $LNG['track_hidden_2'] = 'Sorry, but this author\'s profile settings only allows his followers to view this track.';
 $LNG['track_hidden_1_ttl'] = $LNG['track_hidden_2_ttl'] = 'Private Track';
-$LNG['track_suspended_1'] = 'Sorry, but this track has been disabled due to a copyright infringement claim. If you think this was an error, please contact us.';
+$LNG['track_suspended_1'] = 'Sorry, but this track has been disabled. If you think this was an error, please contact us.';
 $LNG['track_suspended_1_ttl'] = 'Disabled track';
 $LNG['playlist_hidden'] = 'Sorry, but this playlist is private, only the author of the playlist can see it.';
 $LNG['playlist_hidden_ttl'] = 'Private Playlist';
@@ -179,7 +179,8 @@ $LNG['deleted_comment'] = 'The comment has been deleted.';
 $LNG['suspended_track'] = 'The track has been suspended.';
 $LNG['restored_track'] = 'The track has been restored.';
 $LNG['safe_report'] = 'The report has been marked as safe.';
-$LNG['rci'] = 'Report copyright infringement';
+$LNG['reason'] = 'Reason';
+$LNG['report_ci'] = 'Copyright infringement';
 $LNG['report_track'] = 'Report track';
 $LNG['signature'] = 'Signature';
 $LNG['sub_signature'] = 'Typing your full name in this box acts as your electronic signature';
@@ -189,6 +190,7 @@ $LNG['report2'] = 'I confirm that the information in this notification is accura
 $LNG['report3'] = 'I confirm that I am the copyright owner or am authorised to act on behalf of the owner of an exclusive right that is allegedly infringed. Where I am making notice pursuant to the United States Digital Millennium Copyright Act U.S.C. 17 &sect;512(c), I make this statement under penalty of perjury';
 $LNG['rep_resc_error'] = 'The description should be less than %s characters';
 $LNG['abusive_comment'] = 'Abusive Comment';
+$LNG['abusive_track'] = 'Abusive Track';
 $LNG['copyright_infringement'] = 'Copyright Infringement';
 $LNG['claimant'] = 'Claimant';
 $LNG['infringing_material'] = 'Infringing Material';
@@ -568,14 +570,11 @@ $LNG['standard_accounts'] = 'Standard Accounts';
 $LNG['admin_ttl_ppapp'] = 'Pro Accounts';
 $LNG['admin_sub_ppapp'] = 'Enable Pro Accounts with PayPal';
 
-$LNG['admin_ttl_ppuser'] = 'PayPal Username';
-$LNG['admin_sub_ppuser'] = 'PayPal API Username';
+$LNG['admin_ttl_ppclientid'] = 'PayPal Client ID';
+$LNG['admin_sub_ppclientid'] = 'PayPal Client ID';
 
-$LNG['admin_ttl_pppass'] = 'PayPal Password'; 
-$LNG['admin_sub_pppass'] = 'PayPal API Password';
-
-$LNG['admin_ttl_ppsign'] = 'PayPal Signature';
-$LNG['admin_sub_ppsign'] = 'PayPal API Signature';
+$LNG['admin_ttl_ppsecret'] = 'PayPal Secret';
+$LNG['admin_sub_ppsecret'] = 'PayPal Secret';
 
 $LNG['admin_ttl_ppsand'] = 'PayPal Sandbox';
 $LNG['admin_sub_ppsand'] = 'PayPal sandbox for development mode';
@@ -688,7 +687,7 @@ $LNG['add_category'] = 'Add category';
 $LNG['add_category_desc'] = 'These categories are shown on the Explore page';
 $LNG['case_id'] = 'Case ID';
 $LNG['enter_case_id'] = 'Enter the Case ID you want to view';
-$LNG['valid_rcs'] = 'Valid reported copyright strikes';
+$LNG['valid_rcs'] = 'Valid reports';
 $LNG['payment_id'] = 'Payment ID';
 $LNG['enter_payment_id'] = 'Enter a Payment ID you want to view';
 
@@ -977,6 +976,7 @@ $LNG['track'] = 'Track';
 $LNG['tracks'] = 'Tracks';
 $LNG['pages'] = 'Pages';
 $LNG['report'] = 'Report';
+$LNG['other'] = 'Other';
 $LNG['stats'] = 'Stats';
 $LNG['author'] = 'Author';
 $LNG['latest_music'] = 'Latest Music';
