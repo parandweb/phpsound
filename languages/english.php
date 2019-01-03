@@ -347,8 +347,8 @@ $LNG['sub_facebook'] = 'Your Facebook profile ID.';
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'Your Twitter profile ID.';
 
-$LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'Your Google+ profile ID.';
+$LNG['ttl_instagram'] = 'Instagram';
+$LNG['sub_instagram'] = 'Your Instagram profile ID.';
 
 $LNG['ttl_youtube'] = 'YouTube';
 $LNG['sub_youtube'] = 'Your YouTube profile ID.';
@@ -790,7 +790,6 @@ $LNG['volume'] = 'Volume';
 // SHARE //
 $LNG['share_facebook'] = 'Share on Facebook';
 $LNG['share_twitter'] = 'Share on Twitter';
-$LNG['share_gplus'] = 'Share on Google+';
 $LNG['share_pinterest'] = 'Share on Pinterest';
 $LNG['share_email'] = 'Share via email';
 $LNG['share_sn'] = 'Share on Social Networks';

@@ -347,8 +347,8 @@ $LNG['sub_facebook'] = 'ID-ul d-voastră de Facebook';
 $LNG['ttl_twitter'] = 'Twitter';
 $LNG['sub_twitter'] = 'ID-ul d-voastră de Twitter';
 
-$LNG['ttl_google'] = 'Google+';
-$LNG['sub_google'] = 'ID-ul d-voastră de Google+';
+$LNG['ttl_instagram'] = 'Instagram';
+$LNG['sub_instagram'] = 'ID-ul d-voastră de Instagram';
 
 $LNG['ttl_youtube'] = 'YouTube';
 $LNG['sub_youtube'] = 'ID-ul d-voastră de YouTube';
@@ -790,7 +790,6 @@ $LNG['volume'] = 'Volum';
 // SHARE //
 $LNG['share_facebook'] = 'Împărtășește pe Facebook';
 $LNG['share_twitter'] = 'Împărtășește pe Twitter';
-$LNG['share_gplus'] = 'Împărtășește pe Google+';
 $LNG['share_pinterest'] = 'Împărtășește pe Pinterest';
 $LNG['share_email'] = 'Împărtășește pe email';
 $LNG['share_sn'] = 'Împărtășește pe rețelele de socializare';
