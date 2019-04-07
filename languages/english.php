@@ -8,7 +8,7 @@ $author = 'phpSound';
 // Language URL
 $url = 'https://phpsound.com';
 
-$LNG['lang_direction'] = 'ltr';
+$LNG['lang_dir'] = 'ltr';
 
 $LNG['user_success'] = 'User succesfully created';
 $LNG['user_exists'] = 'This username already exists';
